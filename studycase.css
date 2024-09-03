@@ -1,0 +1,43 @@
+p{
+    font-family: sans-serif;
+}
+
+
+.kanan1{
+    text-align: right;
+    padding: 3rem 25rem 3rem 25rem;
+   
+}
+
+.content{
+    margin-top: 8rem;
+    
+}
+
+.kiri{
+    padding-left: 3rem;
+    padding-left: 25rem;
+    
+}
+
+h1{
+    border: 2px solid black;
+    display: inline;
+    padding: 10px;
+    border-radius: 40px;
+    padding-top: 3rem;
+    padding-left: 2rem ;
+    padding-right:2rem ;
+    padding-bottom: 3rem;
+}
+
+.button{
+    text-align: center;
+    margin-top: 90px;
+}
+
+button{
+    border-radius: 50px;
+    background-color: none;
+   font-family: 'Times New Roman', Times, serif;
+}

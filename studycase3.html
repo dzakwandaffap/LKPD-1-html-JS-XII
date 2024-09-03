@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>opsi jawaban dan poin</p>
+
+    <div>
+            
+            <p>opsi1</p>
+           
+            <input type="number" placeholder="poin"> 
+            <input type="text" placeholder="deskripsi poin"> 
+    </div>
+
+
+  
+
+  
+    <div id="isi"></div>
+    <div>
+        <button type="button" id="btn">klik aja</button>
+    </div>
+
+
+<script>
+
+
+let tambah = 2;
+
+document.getElementById('btn').addEventListener('click', () => {
+    
+    const nambah = `
+        <div>
+            <p>opsi ${tambah ++}</p>
+            <input type="number" placeholder="poin"> 
+            <input type="text" placeholder="deskripsi poin"> 
+        </div>
+    `;
+
+    
+    document.getElementById('isi').innerHTML += nambah;
+
+    
+    
+});
+
+   
+
+</script>
+
+
+</body>
+</html>
+
